@@ -1,0 +1,10 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{- if .IsHome -}}{{ .Site.Title }}{{- else if .IsNode -}}{{ .Page.Title }}{{- else -}}{{ .Site.Title }}{{- end -}}</title>
+  <meta name="description" content="Watch Anime Sub Free On Facebook.com">
+  <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL}}">
+</head>

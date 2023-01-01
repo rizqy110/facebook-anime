@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Facebook Anime'
+theme = 'ase'
+
+[params]
+  favicon = 'https://img.icons8.com/color/512/facebook-new.png'
