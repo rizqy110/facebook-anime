@@ -3,6 +3,7 @@ video{object-fit:contain;position:absolute;top:0;right:0;bottom:0;left:0;width:1
 
 .ai-c{align-items:center}
 .d-b{display:block}.d-f{display:flex}
+.d-n{display:none}
 .h-f{height:100%}
 .jc-c{justify-content:center}
 .p-a{position:absolute}
