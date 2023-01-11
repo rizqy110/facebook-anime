@@ -14,13 +14,15 @@ function getUrlParam(parameter, defaultvalue){
     return urlparameter;
 }
 
-var watch = getUrlParam('watch',null);
-var watch2 = getUrlParam('watch2',null);
-var mwatch = getUrlParam('mwatch',null);
-var mwatch2 = getUrlParam('mwatch2',null);
+var marc = getUrlParam('marc',null);
+var mdarc = getUrlParam('mdarc',null);
+var mdarcz = getUrlParam('mdarcz',null);
+var mdkus = getUrlParam('mdkus',null);
 
-var metanime = "<meta http-equiv='refresh' content='0; url=/anime/?watch="+ mwatch +"'>";
-var metanime2 = "<meta http-equiv='refresh' content='0; url=/anime/?watch2="+ mwatch2 +"'>";
+var dmed = getUrlParam('dmed',null);
 
-var kstream = "<video id='plyr' style='display:inline' autoplay='' controlslist='nodownload' controls='' playsinline='' webkit-playsinline='' src='https://s1.requisitor.xyz/anime2/"+ watch +".mp4' type='video/mp4'></Video><a class='tl p-a' href='https://poplarwindowsmasculine.com/yr9b40rx0v?key=ff0d80b75e8501a204c539222406f2fb' target='_blank'><img width='35%' height='auto' src='https://freepngimg.com/download/download_now_button/25706-2-download-now-button-orange.png'/></a>";
-var kstream2 = "<video id='plyr' style='display:inline' autoplay='' controlslist='nodownload' controls='' playsinline='' webkit-playsinline='' src='https://s2.requisitor.xyz/anime2/"+ watch2 +".mp4' type='video/mp4'></Video><a class='tl p-a' href='https://poplarwindowsmasculine.com/yr9b40rx0v?key=ff0d80b75e8501a204c539222406f2fb' target='_blank'><img width='35%' height='auto' src='https://freepngimg.com/download/download_now_button/25706-2-download-now-button-orange.png'/></a>";
+var metarc = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?marc="+ marc +"'>";
+var metdarc = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdarc="+ mdarc +"'>";
+var metdarcz = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdarcz="+ mdarcz +"'>";
+var metdkus = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdkus="+ mdkus +"'>";
+var metdmed = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?dmed="+ dmed +"'>";
