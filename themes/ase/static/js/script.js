@@ -14,15 +14,8 @@ function getUrlParam(parameter, defaultvalue){
     return urlparameter;
 }
 
-var marc = getUrlParam('marc',null);
-var mdarc = getUrlParam('mdarc',null);
-var mdarcz = getUrlParam('mdarcz',null);
-var mdkus = getUrlParam('mdkus',null);
+var arc = getUrlParam('arc',null);
+var lh3 = getUrlParam('lh3',null);
 
-var dmed = getUrlParam('dmed',null);
-
-var metarc = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?marc="+ marc +"'>";
-var metdarc = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdarc="+ mdarc +"'>";
-var metdarcz = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdarcz="+ mdarcz +"'>";
-var metdkus = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?mdkus="+ mdkus +"'>";
-var metdmed = "<meta http-equiv='refresh' content='0; url=https://www.google.com/url?sa=t&url=https://kancabelajar.blogspot.com/?dmed="+ dmed +"'>";
+var astream = "<video id='plyr' class='p-a w-f' autoplay='' controls='' playsinline='' webkit-playsinline='' src='https://archive.org/download/"+ arc +".mp4' type='video/mp4'></Video>";
+var lh3stream = "<video id='plyr' class='p-a w-f' autoplay='' controls='' playsinline='' webkit-playsinline='' src='https://lh3.googleusercontent.com/pw/"+ lh3 +"' type='video/mp4'></Video>";
