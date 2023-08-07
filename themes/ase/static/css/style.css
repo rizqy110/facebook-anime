@@ -1,13 +1,17 @@
 body{color:white;background:black;width:100%;height:100%;}
-video{object-fit:contain;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;margin:auto;background:black;display:none;}
+video{object-fit:contain;top:0;right:0;bottom:0;left:0;width:100%!important;height:100%!important;margin:auto;background:black;display:inline}
 
 .ai-c{align-items:center}
+.bc1{background-color:whitesmoke}
+.br-11{border-radius:11px}
+.c1{color:#000}
 .d-b{display:block}.d-f{display:flex}
 .d-n{display:none}
 .h-f{height:100%}
 .jc-c{justify-content:center}
 .p-a{position:absolute}
+.p-5{padding:5px}
 .w-f{width:100%}
 
-.tl{top:10px;left:10px;right:10px}
+.tl{top:10px;left:10px}
 #plyr,#load{margin:0;background-image:url(https://service.acefile.co/assets/preload.svg);background-position:center;background-repeat:no-repeat}
